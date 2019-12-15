@@ -1,0 +1,16 @@
+{
+  "name": "seattle-sound",
+  "version": "1.0.0",
+  "description": "A portfolio project built with React and Three.JS to provide an unconventional and interesting user experience.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harryray/seattle-sound.git"
+  },
+  "author": "Harry Ray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harryray/seattle-sound/issues"
+  },
+  "homepage": "https://github.com/harryray/seattle-sound#readme"
+}
