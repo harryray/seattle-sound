@@ -1,2 +1,5 @@
 # Do not include node_modules
 node_modules/*
+
+# Don't include package-lock
+package-lock.json

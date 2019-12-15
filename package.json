@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A portfolio project built with React and Three.JS to provide an unconventional and interesting user experience.",
   "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harryray/seattle-sound.git"
@@ -12,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/harryray/seattle-sound/issues"
   },
-  "homepage": "https://github.com/harryray/seattle-sound#readme"
+  "homepage": "https://github.com/harryray/seattle-sound#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
